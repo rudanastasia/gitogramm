@@ -1,0 +1,27 @@
+[
+    {
+        "id": "0",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "Иван Иванов"
+    },
+    {
+        "id": "1",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "Сергей Аксенов"
+    },
+    {
+        "id": "2",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "Петр Иващенко"
+    },
+    {
+        "id": "3",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "Ульяна Павлова"
+    },
+    {
+        "id": "4",
+        "avatar": "https://picsum.photos/300/300",
+        "username": "Мария Петрова"
+    }
+]
