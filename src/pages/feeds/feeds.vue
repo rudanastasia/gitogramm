@@ -32,7 +32,7 @@
 
 <script>
 import { topline } from '../../components/topline'
-import { icons } from '../../icons'
+import { icon } from '../../icons'
 import { storyUserItem } from '../../components/storyUserItem'
 import stories from './data.json'
 import { toggler } from '../../components/toggler'
@@ -40,9 +40,9 @@ import { comment } from '../../components/comment'
 
 export default {
     name: 'feeds',
-    component: {
+    components: {
         topline,
-        icons,
+        icon,
         storyUserItem,
         toggler,
         comment
@@ -57,6 +57,9 @@ export default {
         toggle (isOpened) {
             this.shown = isOpened
         }
+    },
+    created () {
+        console.log(this.$store.state.foo)
     }
 }
 </script>
