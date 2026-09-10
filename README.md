@@ -1,34 +1,91 @@
-# gitogram
+# Gitogram
 
-## Project setup
-```
+Gitogram — веб-приложение на Vue.js, разработанное в формате социальной сети.
+
+Проект создан для практики разработки пользовательских интерфейсов, работы с Vue-компонентами и тестирования приложения.
+
+## Возможности
+
+* Компонентный интерфейс на Vue.js
+* Навигация между страницами с помощью Vue Router
+* Модульное тестирование
+* Сквозное тестирование приложения
+* Разработка и документирование компонентов в Storybook
+* Проверка кода с помощью ESLint
+
+## Технологии
+
+* **Vue.js**
+* **JavaScript**
+* **Vue Router**
+* **Jest**
+* **Cypress**
+* **Storybook**
+* **ESLint**
+
+## Установка и запуск
+
+Установите зависимости:
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### Запуск в режиме разработки
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+После запуска приложение будет доступно по адресу, указанному в терминале.
+
+### Сборка проекта
+
+Для создания версии проекта для публикации:
+
+```bash
 npm run build
 ```
 
-### Run your unit tests
-```
+## Тестирование
+
+### Модульные тесты
+
+Запуск модульных тестов:
+
+```bash
 npm run test:unit
 ```
 
-### Run your end-to-end tests
-```
+### Сквозные тесты
+
+Запуск сквозных тестов:
+
+```bash
 npm run test:e2e
 ```
 
-### Lints and fixes files
-```
+## Проверка кода
+
+Проверка и автоматическое исправление ошибок:
+
+```bash
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Storybook
+
+Для разработки и документирования компонентов проекта используется Storybook.
+
+Конфигурация Storybook находится в директории `.storybook`.
+
+## Структура проекта
+
+```text
+gitogram/
+├── src/          # Основной код приложения
+├── tests/        # Тесты
+├── .storybook/   # Конфигурация Storybook
+├── public/       # Статические файлы
+└── package.json  # Зависимости и команды проекта
+```
