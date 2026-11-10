@@ -1,17 +1,10 @@
 <template>
-<router-view />
-<feeds />
+  <router-view />
 </template>
 
 <script>
-import { feeds } from './pages/feeds'
-
-
 export default {
-  name: 'App',
-  components: {
-    feeds
-  }
+  name: 'App'
 }
 </script>
 
