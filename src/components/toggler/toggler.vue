@@ -1,24 +1,14 @@
 <template>
   <button :class="['button', { active: isOpened }]" @click="toggle">
     <span class="text">{{ isOpened ? 'Hide' : 'Show' }} issues</span>
-    <span class="icon">
-      <icon name="triangle" />
-    </span>
+    <span class="icon"><icon name="triangle" /></span>
   </button>
 </template>
-
 <script>
 import { icon } from '../../icons';
-
 export default {
-  component: {
-    icon
-  },
-  data () {
-    return {
-      isOpened: false
-    };
-  },
+  components: { icon },
+  data () { return { isOpened: false }; },
   methods: {
     toggle () {
       this.isOpened = !this.isOpened;
@@ -27,5 +17,4 @@ export default {
   }
 };
 </script>
-
 <style lang="scss" scoped src="./toggler.scss"></style>
